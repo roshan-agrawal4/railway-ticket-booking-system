@@ -1,0 +1,49 @@
+Description of how to run the code and observe the output: If the exe file is not working please compile by below given method. 
+1. Go to linux terminal and make current directory where the "2019B1PS0191P_P6.c" file is saved.
+2. Type command gcc 2019B1PS0191P_P6.c and press ENTER.
+3. Type command ./a.out and press ENTER.
+4. The program will start running.
+5. All the files for this program will be created in your current directory.
+6. Please make sure your page is full screen to view properly.
+7. First page shows the Welcome page.
+8. Press ENTER to go to the MAIN MENU.
+9. MAIN MENU CONTAINS - (1)DETAILS OF TRAINS (2)ENQUIRY MENU (3)TICKET BOOKING MENU (4)TICKET CANCELLATION MENU (5)EXIT
+10.To select press 1,2,3,4 or 5 respectively and press ENTER.
+
+11.(1)DETAILS OF TRAINS. After entering 1, system will show all the details of 10 trains from Delhi that include - Train No,Source,Destination,Seats Left and Fare.
+   11.a. Here is the list of cities and their 3 letter codes we have used-
+	 DEL=Delhi
+	 BOM=Bombay/Mumbai
+	 BLR=Bengaluru
+ 	 CCU=Kolkata
+	 AMD=Ahmedabad
+	 PNQ=Pune
+	 HYD=Hyderabad
+	 LKO=Lucknow
+	 JAI=Jaipur
+	 NAG=Nagpur
+	 BHO=Bhopal
+   11.b. Please type these three letter codes ONLY in Source and Destination in the program.
+   11.c. A text file - details of Trains.txt is created. The seats left portion of this text file is updated on booking and cancelling.
+
+12.(2)ENQUIRY MENU. After entering 2, system will ask your Source.
+   12.a. Here ONLY DEL is taken as valid Source city. Press ENTER after entering your source. If any source other than DEL is entered, it will show "No trains from this source".
+	 Press ENTER to go back to MAIN MENU.
+   12.b. In Destination enter code of any 10 city from above(except DEL) to check it's seats left and press ENTER to see the the number of seats left. For invalid destination 	
+	 press ENTER to go back to MAIN MENU.
+   12.c. Press ENTER to go back to MAIN MENU.
+
+13.(3)TICKET BOOKING MENU. Here any entry of invalid Source, Destination or if seats are unavailable; the system will prompt it , then press ENTER to go back. 
+   13.a. Enter your Name-surname, Source and Destination. Press ENTER.
+   13.b. Press Y or y to confirm the ticket. All the confirmed tickets are stored in a seperate text file called PassengerDetails.txt. This file is updated after every booking. 
+	 Please note you PNR number which is shown to cancel the ticket.
+   13.c. Press N or n to cancel ticket booking. 	
+   13.d. PassengerDetails.txt contains the details of all the current passenger ticket details (cancelled tickets are not shown) like - 
+	 Passenger-Name,Train No,Source,Destination,Fare,PNR.
+
+14.(4)TICKET CANCELLATION MENU.
+   14.a. To cancel the ticket please enter your PNR which was shown during booking. After entering your PNR system will show your details and the refund amount of the ticket.
+	 After successful cancellation, the ticket is added to details of Trains.txt. Press ENTER to go back.
+   14.b. If an invalid PNR is inputted, then the system prompts it. 
+
+15.(5)EXIT. Enter 5 to go back to terminal.
