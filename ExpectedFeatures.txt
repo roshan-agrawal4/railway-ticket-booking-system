@@ -1,0 +1,19 @@
+Railway Reservation system for Migrant Labourers:
+Features expected in the system:
+1. Structure-based implementation of trains (train no., source, destination, seats left) and
+tickets (PNR, passenger name, train no). The date has been ignored considering the trains
+operate for a single day. PNR is an auto-increment value starting from 1.
+2. Details of all trains – from Delhi to Major cities – should be stored in a text file to be loaded
+and displayed while accessing the system.
+3. Ticket data should be stored in a separate text file and available for reading anytime.
+4. Menu-driven enquiry, booking, and cancellation facilities.
+5. Enquiry menu will ask for source and destination input, and if the source is any station
+other than Delhi, show no trains available. Otherwise, display the number of seats left in
+the train.
+6. Booking menu should ask for passenger name, source and destination. Assume booking
+can be done only for 1 person per PNR. Upon booking, the seats left in that train should
+be decremented. You should also check whether seats are available before booking the
+ticket.
+7. Cancellation menu should subtract 50% cancellation charges and then display the refund
+amount. Delete that entry from the ticket data file. The cancelled tickets should be freed
+up and should be added to the available quota of that particular train.
