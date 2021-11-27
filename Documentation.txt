@@ -1,6 +1,6 @@
 Description of how to run the code and observe the output: If the exe file is not working please compile by below given method. 
-1. Go to linux terminal and make current directory where the "2019B1PS0191P_P6.c" file is saved.
-2. Type command gcc 2019B1PS0191P_P6.c and press ENTER.
+1. Go to linux terminal and make current directory where the "Railway-ticket-booking-system.c" file is saved.
+2. Type command gcc Railway-ticket-booking-system.c and press ENTER.
 3. Type command ./a.out and press ENTER.
 4. The program will start running.
 5. All the files for this program will be created in your current directory.
